@@ -19,9 +19,9 @@ public class Bank {
         int color;
 
         if (isFav) {
-            color = Color.rgb(255, 255, 255);
+            color = Color.rgb(0, 0, 0);
         } else {
-            color = Color.rgb(255, 255, 0);
+            color = Color.rgb(255, 0, 0);
         }
 
         isFav = !isFav;
